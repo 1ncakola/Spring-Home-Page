@@ -1,0 +1,153 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+
+ 
+.titlebox {
+    width: 1880px;
+    text-align: left;
+    background: linear-gradient(rgb(1, 150, 250), white);
+    height: 100px;
+    padding: 10px
+}
+
+.detailbox {
+            position: absolute; 
+            top: 340px; 
+            left: 380px; 
+            width: 1200px; 
+            height: 700px; 
+            border-radius: 50px;
+            background-color: rgba(250, 250, 250, 0.468);
+            opacity: 0; /* Initially hidden */
+            transition: opacity 4s ease; /* Smooth transition */
+           }
+
+
+#paragraph {
+    line-height: 1; 
+}
+
+img { 
+    width: 1900px;
+    height: 1200px;
+ }
+
+.mainbox {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+ 
+
+.design {
+    font-family: "island moments";
+    color: white;
+    font-size:60px;
+}
+
+ 
+
+.design2 {
+    font-family: "island moments";
+    color: white;
+    font-size: 50px;
+}
+
+ 
+
+.navlinkbox {
+    width: 200px;
+    height:40px;
+    background-color: white;
+    float: right;
+    border-radius: 100px;
+    margin-right: 150px;
+}
+
+ 
+
+.navlinkbox2 {
+    width: 200px;
+    height:40px;
+    background-color: white;
+    float: right;
+    border-radius: 100px;
+    margin-right: 60px;
+}
+
+
+
+.navlinkbox3 {
+    width: 200px;
+    height:40px;
+    background-color: white;
+    float: right;
+    border-radius: 100px;
+    margin-right: 60px;
+}
+
+ 
+
+body {
+    background-image: url(Diner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+ 
+
+.thirdlinktextbox {
+    font-family: "Island moments";
+    color: black;
+    font-size: xx-large;
+    margin-left: 30px;
+}
+
+ 
+
+.secondlinktextbox {
+    font-family: "Island moments";
+    color: black;
+    font-size: xx-large;
+    margin-left: 65px;
+}
+
+ 
+
+.firstlinktextbox {
+    font-family: "Island moments";
+    color: black;
+    font-size: xx-large;
+    margin-left: 65px;
+}
+
+a:link {text-decoration: none;}
+
+a:visited {color: black;}
+
+ 
+
+a:hover {
+    color:black;
+    background-color: rgb(0, 89, 255);
+    border-radius: 150px;
+}
+
+#home {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Island moments";
+    
+}
+#home h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #020202;
+}
+#home p {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
